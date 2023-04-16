@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:inputType="textPersonName"
+            android:hint="이름"
+            android:id="@+id/editTextName"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:inputType="numberDecimal"
+            android:hint="나이"
+            android:id="@+id/editTextAge"
+            android:maxLength="3"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/buttonBirthDate"
+            android:text="생년월일"
+            android:minWidth="150dp"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonSave"
+        android:text="저장"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="2020069006 박미라"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

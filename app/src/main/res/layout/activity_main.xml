@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        class="com.example.mission9.MainFragment1"
+        android:id="@+id/mainFragment"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
